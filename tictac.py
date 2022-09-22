@@ -32,3 +32,13 @@ for i in range(len(squares)):
 
 print_grid()
 
+number_input = int(input("O's turn to choose a square (1-9): ")) # We use 'int()' to specify that input will be an integer, not a string.
+
+# for loop looks at each index position in the length of the squares array using range()
+# It then compares what's in each index position with the number_input and if it matches, replaces it with an O.
+for i in range(len(squares)):
+    if squares[i] == number_input:
+        squares[i] = 'O'
+
+print_grid()
+
