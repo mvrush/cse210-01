@@ -44,7 +44,7 @@ while winner != 'yes' and turns < 9:
             squares[i] = 'X'
 
     print_grid()
-    # print(f"Turns = {turns}")
+    # print(f"Turns = {turns}") # Used for debugging
     winner = main()
     if winner == 'yes':
         print('Player 1 is the winner!')
@@ -62,7 +62,7 @@ while winner != 'yes' and turns < 9:
                 squares[i] = 'O'
 
         print_grid()
-        # print(f"Turns = {turns}")
+        # print(f"Turns = {turns}") # Used for debugging
         winner = main()
         if winner == 'yes':
             print('Player 2 is the winner!')
