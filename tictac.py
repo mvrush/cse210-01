@@ -66,4 +66,4 @@ while winner != 'yes' and turns < 9:
         if winner == 'yes':
             print('Player 2 is the winner!')
 
-print(f"\nThanks for playing Tic-Tac-Toe!")
+print(f"\nThanks for playing Tic-Tac-Toe!\n")
