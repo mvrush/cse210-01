@@ -9,7 +9,7 @@ Output: Show users placement on grid and inform when a victory is attained.
 """
 print(f"\nWelcome to Tic-Tac-Toe!\nPlayer One will be X's and Player Two will be O's.\nReady Player One?")
 
-# This function will print the grid
+# This function will print the grid when called
 def print_grid():
     print(f"\n{squares[0]}|{squares[1]}|{squares[2]}\n-+-+-\n{squares[3]}|{squares[4]}|{squares[5]}\n-+-+-\n{squares[6]}|{squares[7]}|{squares[8]}\n")
 
